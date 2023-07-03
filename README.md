@@ -45,8 +45,11 @@ The main goal of this project is to apply knowledge of Promises and the Fetch AP
 https://luxury-trifle-41c2e1.netlify.app
 
 ## ScreenShot 
+
+- Home Page 
 ![image](https://github.com/ojjasvi-jain/React-FoodRecipeApp/assets/85935892/4ac948f9-6040-4b3f-a074-0b930d2a2f76)
 
+- Recipe instruction 
 ![image](https://github.com/ojjasvi-jain/React-FoodRecipeApp/assets/85935892/a7a91ae1-a8a5-4a90-81cf-37628c2946b3)
 
 
