@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+## Problem Statement
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Fred learned how to cook and is eager to teach others how to cook food. Please assist Fred with the creation of a web site where Fred can document and share the recipes with the world.
 
-## Available Scripts
+## Solution Description
 
-In the project directory, you can run:
+FoodRecipeApp is a recipe search application built using JavaScript library - React JS, and CSS. It allows users to search for various food recipes based on different categories. The project follows a mobile-first approach .
 
-### `npm start`
+##
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The application consists of a homepage and a "My Recipes" page. On the homepage, users can select a food category from a dropdown menu. Based on the selected category, the app presents a list of dishes belonging to that category. Clicking on the "View Recipe" button navigate to another page to displaying the recipe instructions, a list of ingredients with their quantities, and a link to a YouTube video demonstrating how to prepare the recipe.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The main goal of this project is to apply knowledge of Promises and the Fetch API in JavaScript , React-routing , uses of Hooks to create a responsive and interactive recipe search application.
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React JS
+- CSS (Mobile-first approach)
+- Bundler
+- react-router-dom lib
 
-### `npm run build`
+## File Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1.  Pages
+    1.1 Home
+    1.2 recipePage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2.  Resuable component
+    2.1 MealCard
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Features
 
-### `npm run eject`
+- Recipe search based on food categories
+- Recipe details including instructions, ingredients with quantities, and a video link
+- Every meals has dedicated url which contains ingredients name with image and its quantity
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Use the dropdown menu on the homepage to select a food category.
+2. Browse navigate to anothor page to displayed recipes
+3. In dedicated page of the meal , you can view instructions, ingredients, and watch a video related to the recipe.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## demo link
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://luxury-trifle-41c2e1.netlify.app
