@@ -64,6 +64,11 @@ const RecipeContainer = () => {
     <main>
       <h1 className="main-heading">{recipeDetails.strMeal}</h1>
       <div className="form-frame">
+        <div className="back_btn">
+          <Link to="/">
+            <i className="fa fa-arrow-left" aria-hidden="true"></i>
+          </Link>
+        </div>
         <div className="image-container">
           <img src={recipeDetails.strMealThumb} alt={recipeDetails.strMeal} />
         </div>

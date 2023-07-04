@@ -12,6 +12,7 @@ main {
   background-clip: padding-box;
   border-radius: 1em;
   height: 80vh;
+  position: relative;
 }
 
 .form-frame .image-container {
@@ -87,6 +88,17 @@ table {
   font-size: 40px;
 }
 
+.back_btn {
+  position: absolute;
+  font-size: 49px;
+  left: 1%;
+  transition: all cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.9s;
+}
+
+.back_btn:hover {
+  translate: -5px 0;
+}
+
 @media screen and (max-width: 880px) {
   .main-heading {
     font-size: 2rem;
@@ -110,5 +122,10 @@ table {
   main .form-frame .form-container {
     border-radius: 0 0 1em 1em;
     max-width: 100vw;
+  }
+
+  .back_btn {
+    font-size: 30px;
+    top: 2%;
   }
 }
