@@ -42,7 +42,7 @@ The main goal of this project is to apply knowledge of Promises and the Fetch AP
 
 ## demo link
 
-https://luxury-trifle-41c2e1.netlify.app
+https://vocal-longma-6dada3.netlify.app
 
 ## ScreenShot 
 
