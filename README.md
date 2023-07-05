@@ -44,6 +44,12 @@ The main goal of this project is to apply knowledge of Promises and the Fetch AP
 
 https://vocal-longma-6dada3.netlify.app
 
+# API 
+https://www.themealdb.com/api.php
+
+1. https://www.themealdb.com/api/json/v1/1/filter.php?c=Vegetarian
+2. https://www.themealdb.com/api/json/v1/1/list.php?c=list
+
 ## ScreenShot 
 
 - Home Page 
